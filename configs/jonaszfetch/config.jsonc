@@ -1,0 +1,76 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "padding": {
+      "top": 1
+    }
+  },
+
+  "display": {
+    "separator": ""
+  },
+
+  "modules": [
+    "break",
+
+    {
+      "type": "os",
+      "key": "    󰣇 ",
+      "keyColor": "white"
+    },
+
+    {
+      "type": "kernel",
+      "key": "     ",
+      "keyColor": "white"
+    },
+
+    {
+      "type": "wm",
+      "key": "     ",
+      "keyColor": "white"
+    },
+
+    {
+      "type": "shell",
+      "key": "     ",
+      "keyColor": "white"
+    },
+
+    {
+      "type": "terminal",
+      "key": "     ",
+      "keyColor": "white"
+    },
+
+    {
+      "type": "custom",
+      "format": "AMD Ryzen 3 5300U",
+      "key": "    󰻠 ",
+      "keyColor": "white"
+    },
+
+    {
+      "type": "gpu",
+      "key": "    󰢮 ",
+      "keyColor": "white"
+    },
+
+    {
+      "type": "memory",
+      "key": "    󰍛 ",
+      "keyColor": "white",
+      "format": "{1} / {2}"
+    },
+
+    {
+      "type": "command",
+      "key": "    󱦟 ",
+      "keyColor": "white",
+      "text": "echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days"
+    },
+
+    "break"
+  ]
+}
