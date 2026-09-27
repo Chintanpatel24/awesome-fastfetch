@@ -337,6 +337,22 @@
   
 </tr>
 
+<tr>
+  
+<td>
+
+<img width="689" height="414" alt="preview" src="https://github.com/user-attachments/assets/406591bf-aac4-4a7f-ac1b-ffca2df8c9ac" />
+
+</td>
+
+<td>
+  
+## [config.jsonc](configs/jonaszfetch/config.jsonc)
+
+</td>
+  
+</tr>
+
 </table>
 
 ---
