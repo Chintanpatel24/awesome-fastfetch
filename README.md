@@ -347,7 +347,7 @@
 
 <td>
   
-## [config.jsonc](configs/jonaszfetch/config.jsonc)
+## [config.jsonc](configs/jonaszfetch)
 
 </td>
   
